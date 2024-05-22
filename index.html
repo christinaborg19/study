@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffebef;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ffccd5;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #e60073;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #e60073;
+            border-bottom: 2px solid #ffccd5;
+            padding-bottom: 5px;
+        }
+        .bow {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC40IDIuNTc3Yy4xMTQtLjExMy4zMDMtLjEyOC40Mi0uMDQ1Yy4wOS4wNi4wOS4yMy4wMS4zMS0uMDkuMDktLjI0NS4wOS0uMzM0LS4wMWwtLjQyLS40MjR6bTAgM2MuMTE0LjExMy4zMDMuMTE4LjQxNyAwbC40MTcuNDE2Yy4xMS4xMTQuMTE4LjMwMyAwIC40MTctLjExMy4xMTQtLjMwMy4xMTgtLjQxNiAwbC0uNDE2LS40MTZ6bTEuMDUgMy4wNjNjLjI2MiAwIC41Mi0uMTAzLjcyNy0uMzA4bDEuMjYyLTEuMjYyYy40MzMtLjQzMy40NzctMS4xNDcuMTA0LTEuNTc1bC0uMDAxLS4wMDFjLS40My0uNDM3LTEuMTYtLjM5NS0xLjU5NC4wNjhsLTEuMjUyIDEuMjUyYy0uMTI1LjEyNS0uMzIuMTI1LS40NDMgMGwtLjQxNi0uNDE2Yy0uMTI2LS4xMjUtLjMyMS0uMTI1LS40NDYgMGwtLjQxNi40MTZjLS4xMjUuMTI2LS4xMjUuMzIxIDAgLjQ0NmwuNDE2LjQxNmMuMTI2LjEyNS4zMjIuMTI1LjQ0NiAwbC40MTYtLjQxNmMuMTI2LS4xMjQuMzIuMTI0LjQ0NiAwbC40MTYuNDE2Yy4xMjUuMTI2LjEyNS4zMjIgMCAuNDQ2bC0uNDE2LjQxNmMtLjEyNC4xMjUtLjEyNC4zMjIgMC40NDZ6bS0yLjA5IDBjLjI2MiAwIC41Mi0uMTAzLjcyNi0uMzA4bDEuMjYyLTEuMjYyYy40MzMtLjQzMy40NzctMS4xNDcuMTA0LTEuNTc2bC0uMDAxLS4wMDFjLS40My0uNDM2LTEuMTYtLjM5Ni0xLjU5NC4wNjhsLTEuMjUyIDEuMjUyYy0uMTI1LjEyNS0uMzIuMTI1LS40NDMgMGwtLjQxNi0uNDE2Yy0uMTI2LS4xMjUtLjMyMS0uMTI1LS40NDYgMGwtLjQxNi40MTZjLS4xMjUuMTI1LS4xMjUuMzIyIDAgLjQ0NmwuNDE2LjQxNmMuMTI2LjEyNS4zMjIuMTI1LjQ0NiAwbC40MTYtLjQxNmMuMTI2LS4xMjQuMzIuMTI0LjQ0NiAwbC40MTYuNDE2Yy4xMjUuMTI2LjEyNS4zMjIgMCAuNDQ2bC0uNDE2LjQxNmMtLjEyNC4xMjUtLjEyNC4zMjIgMCAuNDQ2ek0xNiA4YzAgNC40MTUtMy41ODUgOC04IDhTMiA5LjQxNSAydi0yYy00LjQxNSAwLTgtMy41ODUtOC04UzMuNTg1IDAgOCAwczggMy41ODUgOCA4eiIgZmlsbD0iI2Y5YjEzNyIvPgo8L3N2Zz4=');
+            background-size: cover;
+        }
+        .pink-bg {
+            background-color: #ffebef;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .light-pink-text {
+            color: #e60073;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background-color: #ffebef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Profile</h1>
+    </header>
+    <div class="container">
+        <section id="about-me">
+            <h2 class="light-pink-text">About Me <span class="bow"></span></h2>
+            <p>Hello! I am [Your Name], and this is my personal profile page. Here you can find my study schedule and the topics I have yet to cover.</p>
+        </section>
+        <section id="study-schedule">
+            <h2 class="light-pink-text">Study Schedule <span class="bow"></span></h2>
+            <div class="pink-bg">
+                <p>Here is my weekly study schedule:</p>
+                <ul>
+                    <li><strong>Monday:</strong> Mathematics (9:00 AM - 11:00 AM)</li>
+                    <li><strong>Tuesday:</strong> Science (10:00 AM - 12:00 PM)</li>
+                    <li><strong>Wednesday:</strong> History (1:00 PM - 3:00 PM)</li>
+                    <li><strong>Thursday:</strong> Literature (11:00 AM - 1:00 PM)</li>
+                    <li><strong>Friday:</strong> Computer Science (2:00 PM - 4:00 PM)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="remaining-topics">
+            <h2 class="light-pink-text">Remaining Topics <span class="bow"></span></h2>
+            <div class="pink-bg">
+                <p>These are the topics I still need to cover:</p>
+                <ul>
+                    <li>Advanced Algebra</li>
+                    <li>Photosynthesis</li>
+                    <li>World War II</li>
+                    <li>Shakespeare's Works</li>
+                    <li>Data Structures</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
